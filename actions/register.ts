@@ -2,7 +2,7 @@
 
 import { prisma } from "@/prisma/prisma";
 import { registerSchema, TRegister } from "@/schemas";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 export const register = async (data: TRegister) => {
   try {

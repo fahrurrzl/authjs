@@ -4,7 +4,7 @@ import React from "react";
 
 const DashboardPage = async () => {
   const session = await auth();
-  console.log("session => ", session);
+
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div>
